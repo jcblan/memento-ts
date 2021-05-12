@@ -31,7 +31,6 @@ export class PaginaOriginator implements IOriginator{
     }
 
     public restaurar(memento: ConcreteMemento){
-        console.log("restaurar");
         this.texto = memento.getState();
     }
     
